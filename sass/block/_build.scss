@@ -1,0 +1,14 @@
+.build {
+    min-height: 499px;
+    padding: 120px 0 231px 0;
+    background: url(../../image/Bg2.png) center center / cover no-repeat;
+    &__title {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        color: #48555B;
+        text-align: center;
+    }
+}

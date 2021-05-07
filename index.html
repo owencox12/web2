@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Paralax</title>
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol id="logo" viewBox="0 0 103 23">
+            <path fill-rule="evenodd" width=70px clip-rule="evenodd" d="M5.13178 13.1602L4.1365 15.0336V21.3273H0.916504V0.836356H4.1365V9.76454L8.35178 0.836356H11.5718L7.09305 9.96945L11.5718 21.3273H8.26396L5.13178 13.1602ZM16.1174 16.6144C16.1174 17.3559 16.2686 17.878 16.5711 18.1804C16.8736 18.4829 17.2785 18.6342 17.7859 18.6342C18.2933 18.6342 18.6982 18.4829 19.0007 18.1804C19.3032 17.878 19.4544 17.3559 19.4544 16.6144V5.54926C19.4544 4.80768 19.3032 4.28566 19.0007 3.98317C18.6982 3.68069 18.2933 3.52945 17.7859 3.52945C17.2785 3.52945 16.8736 3.68069 16.5711 3.98317C16.2686 4.28566 16.1174 4.80768 16.1174 5.54926V16.6144ZM12.8975 5.75417C12.8975 4.09538 13.317 2.82203 14.1562 1.93408C14.9954 1.04614 16.2053 0.602173 17.786 0.602173C19.3667 0.602173 20.5767 1.04614 21.4158 1.93408C22.255 2.82203 22.6746 4.09538 22.6746 5.75417V16.4094C22.6746 18.0682 22.255 19.3416 21.4158 20.2295C20.5767 21.1175 19.3667 21.5614 17.786 21.5614C16.2053 21.5614 14.9954 21.1175 14.1562 20.2295C13.317 19.3416 12.8975 18.0682 12.8975 16.4094V5.75417ZM27.9518 6.48599V21.3273H25.0538V0.836356H29.0935L32.4013 13.1016V0.836356H35.27V21.3273H31.9622L27.9518 6.48599ZM37.5034 5.75417C37.5034 4.09538 37.8985 2.82203 38.6889 1.93408C39.4793 1.04614 40.6648 0.602173 42.2455 0.602173C43.8263 0.602173 45.0118 1.04614 45.8022 1.93408C46.5925 2.82203 46.9877 4.09538 46.9877 5.75417V6.39817H43.9434V5.54926C43.9434 4.80768 43.8019 4.28566 43.5189 3.98317C43.2359 3.68069 42.8408 3.52945 42.3334 3.52945C41.826 3.52945 41.4308 3.68069 41.1478 3.98317C40.8648 4.28566 40.7234 4.80768 40.7234 5.54926C40.7234 6.25181 40.8795 6.87141 41.1917 7.40808C41.504 7.94475 41.8943 8.45214 42.3626 8.93026C42.831 9.40839 43.3335 9.8865 43.8702 10.3646C44.4068 10.8428 44.9094 11.3648 45.3777 11.9307C45.8461 12.4967 46.2364 13.1407 46.5486 13.8627C46.8609 14.5848 47.017 15.4337 47.017 16.4094C47.017 18.0682 46.6121 19.3416 45.8022 20.2295C44.9923 21.1175 43.797 21.5614 42.2163 21.5614C40.6355 21.5614 39.4402 21.1175 38.6304 20.2295C37.8205 19.3416 37.4155 18.0682 37.4155 16.4094V15.1507H40.4599V16.6144C40.4599 17.3559 40.6111 17.8731 40.9136 18.1658C41.2161 18.4585 41.621 18.6049 42.1284 18.6049C42.6358 18.6049 43.0408 18.4585 43.3433 18.1658C43.6457 17.8731 43.797 17.3559 43.797 16.6144C43.797 15.9118 43.6409 15.2922 43.3286 14.7555C43.0164 14.2189 42.6261 13.7115 42.1577 13.2334C41.6894 12.7552 41.1868 12.2771 40.6502 11.799C40.1135 11.3209 39.611 10.7988 39.1426 10.2329C38.6743 9.66696 38.284 9.02296 37.9717 8.3009C37.6595 7.57884 37.5034 6.72994 37.5034 5.75417ZM48.2546 0.836356H58.2073V3.76363H54.8409V21.3273H51.6209V3.76363H48.2546V0.836356ZM66.6756 21.3273C66.6366 21.1907 66.5976 21.0638 66.5585 20.9467C66.5195 20.8296 66.4854 20.6833 66.4561 20.5076C66.4268 20.332 66.4073 20.1076 66.3975 19.8344C66.3878 19.5611 66.3829 19.2196 66.3829 18.8098V15.5898C66.3829 14.6336 66.217 13.9603 65.8853 13.57C65.5535 13.1797 65.0169 12.9845 64.2753 12.9845H63.1629V21.3273H59.9429V0.836356H64.8022C66.4805 0.836356 67.6953 1.22666 68.4466 2.00727C69.198 2.78788 69.5736 3.96853 69.5736 5.54927V7.15927C69.5736 9.26691 68.8711 10.6525 67.466 11.316C68.2856 11.6478 68.8467 12.1893 69.1492 12.9406C69.4517 13.692 69.6029 14.6043 69.6029 15.6776V18.8391C69.6029 19.3465 69.6224 19.7904 69.6615 20.171C69.7005 20.5515 69.7981 20.937 69.9542 21.3273H66.6756ZM63.1628 3.76363V10.0573H64.4215C65.0265 10.0573 65.4998 9.90115 65.8413 9.5889C66.1828 9.27666 66.3536 8.71072 66.3536 7.89108V5.87127C66.3536 5.12969 66.2218 4.59302 65.9584 4.26127C65.6949 3.92951 65.2802 3.76363 64.7143 3.76363H63.1628ZM75.1145 0.836356V16.6436C75.1145 17.3852 75.2657 17.9024 75.5682 18.1951C75.8707 18.4878 76.2757 18.6342 76.7831 18.6342C77.2904 18.6342 77.6954 18.4878 77.9979 18.1951C78.3004 17.9024 78.4516 17.3852 78.4516 16.6436V0.836356H81.496V16.4387C81.496 18.0975 81.091 19.3709 80.2811 20.2588C79.4713 21.1468 78.276 21.5907 76.6952 21.5907C75.1145 21.5907 73.9192 21.1468 73.1093 20.2588C72.2994 19.3709 71.8945 18.0975 71.8945 16.4387V0.836356H75.1145ZM92.8203 0.836356H102.773V3.76363H99.4067V21.3273H96.1867V3.76363H92.8203V0.836356Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M83.0255 11.4851L91.3892 1.03059V21.9397L83.0255 11.4851Z" fill="#fff"/>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 512 512">
+            <g>
+                <path d="M448,0H64C28.704,0,0,28.704,0,64v384c0,35.296,28.704,64,64,64h192V336h-64v-80h64v-64c0-53.024,42.976-96,96-96h64v80
+                    h-32c-17.664,0-32-1.664-32,16v64h80l-32,80h-48v176h96c35.296,0,64-28.704,64-64V64C512,28.704,483.296,0,448,0z"/>
+            </g>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="twitter" viewBox="0 0 438.536 438.536">
+            <g>
+                <path d="M414.41,24.123C398.333,8.042,378.963,0,356.315,0H82.228C59.58,0,40.21,8.042,24.126,24.123
+                    C8.045,40.207,0.003,59.576,0.003,82.225v274.084c0,22.647,8.042,42.018,24.123,58.102c16.084,16.084,35.454,24.126,58.102,24.126
+                    h274.084c22.648,0,42.018-8.042,58.095-24.126c16.084-16.084,24.126-35.454,24.126-58.102V82.225
+                    C438.532,59.576,430.49,40.204,414.41,24.123z M335.471,168.735c0.191,1.713,0.288,4.278,0.288,7.71
+                    c0,15.989-2.334,32.025-6.995,48.104c-4.661,16.087-11.8,31.504-21.416,46.254c-9.606,14.749-21.074,27.791-34.396,39.115
+                    c-13.325,11.32-29.311,20.365-47.968,27.117c-18.648,6.762-38.637,10.143-59.953,10.143c-33.116,0-63.76-8.952-91.931-26.836
+                    c4.568,0.568,9.329,0.855,14.275,0.855c27.6,0,52.439-8.565,74.519-25.7c-12.941-0.185-24.506-4.179-34.688-11.991
+                    c-10.185-7.803-17.273-17.699-21.271-29.691c4.947,0.76,8.658,1.137,11.132,1.137c4.187,0,9.042-0.76,14.56-2.279
+                    c-13.894-2.669-25.598-9.562-35.115-20.697c-9.519-11.136-14.277-23.84-14.277-38.114v-0.571
+                    c10.085,4.755,19.602,7.229,28.549,7.422c-17.321-11.613-25.981-28.265-25.981-49.963c0-10.66,2.758-20.747,8.278-30.264
+                    c15.035,18.464,33.311,33.213,54.816,44.252c21.507,11.038,44.54,17.227,69.092,18.558c-0.95-3.616-1.427-8.186-1.427-13.704
+                    c0-16.562,5.853-30.692,17.56-42.399c11.703-11.706,25.837-17.561,42.394-17.561c17.515,0,32.079,6.283,43.688,18.846
+                    c13.134-2.474,25.892-7.33,38.26-14.56c-4.757,14.652-13.613,25.788-26.55,33.402c12.368-1.716,23.88-4.95,34.537-9.708
+                    C357.458,149.793,347.462,160.166,335.471,168.735z"/>
+            </g>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="google" viewBox="0 0 510 510">
+            <g id="glass">
+                <path d="M286.875,229.5v63.75h150.45c-15.3,89.25-86.7,153-175.95,153c-104.55,0-191.25-86.7-191.25-191.25
+                    s86.7-191.25,191.25-191.25c53.55,0,99.45,22.95,132.6,58.65l45.9-45.9c-45.9-45.9-107.1-76.5-178.5-76.5
+                    c-140.25,0-255,114.75-255,255s114.75,255,255,255s242.25-114.75,242.25-255v-25.5H286.875z"/>
+            </g>
+        </symbol>
+    </svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <img src="image/projeco-logo.png" class="logo" alt="Logo">
+            </div>
+            <div class="header__title">PARTNER WITH KONSTUCT</div>
+            <div class="header__subtitle">An award-winning construction management firm</div>
+            <div class="header__scroll"><a href="#main">SCROLL DOWN</a></div>
+            <div class="header__mask"></div>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <div class="container--big">
+            <div class="main__inner">
+                <div class="main__logo">
+                    <img src="image/projeco-logo-black.png" alt="Logo" class="main-logo">
+                </div>
+            <nav class="main__navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__link"><a href="#">HOME</a></li>
+                    <li class="navigation__link"><a href="#">ABOUT</a></li>
+                    <li class="navigation__link"><a href="#">SERVICES</a></li>
+                    <li class="navigation__link"><a href="#">WORK</a></li>
+                    <li class="navigation__link"><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="main__burger">
+                <span></span>
+            </div>
+        <div class="main__burger_list">
+            <svg class="logo__svg" style="display: block; margin: 0 auto;"><use xlink:href="#logo"></use></svg>
+            <ul class="main__burger_list_ul">
+                <li class="main__burger_list_li"><a href="#">HOME</a></li>
+                <li class="main__burger_list_li"><a href="#">ABOUT</a></li>
+                <li class="main__burger_list_li"><a href="#">SERVICES</a></li>
+                <li class="main__burger_list_li"><a href="#">WORK</a></li>
+                <li class="main__burger_list_li"><a href="#">CONTACT</a></li>
+            </ul> 
+        </div>
+        </div>
+    </div>
+        <div class="main__divider"></div>
+        <section class="story">
+            <div class="container">
+            <div class="story__title">OUR STORY</div>
+            <div class="story__divider_small"></div>
+            <div class="story__wrapper">
+                <div class="story__item">
+                    <div class="story__item_text">Founded in 2011 by John Mathew<br> Smith, Konstruct has become the<br> number one construction management <br>firm</div>
+                    <div class="story__item_descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                </div>
+                <div class="story__item story__item--second">
+                    <div class="story__item_image"><img src="image/Bitmap.png" alt="" class="story__item_img"><div class="story__item_image_text">WE<br>
+                        PLAN</div></div>
+                        <div class="story__item_image"><img src="image/story2.png" alt="" class="story__item_img"><div class="story__item_image_text">WE
+                            MANAGE</div></div>
+                            <div class="story__item_image"><img src="image/story3.png" alt="" class="story__item_img"><div class="story__item_image_text">WE<br>
+                                BUILD</div></div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about__item">
+                        <div class="about__title">OUR CAPABILITIES</div>
+                        <div class="about__divider"></div>
+                    </div>
+                    <div class="about__item about__item--right">
+                        <div class="about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                        <button class="button button--about">ALL SERVICES</button>
+                    </div>
+                </div>
+                    <div class="about__wrapper_second">
+                    <div class="about__block">
+                        <img src="image/block1.png" alt="" class="about_img">
+                        <div class="about__block_title">PROJECT AND CONSTRUCTION MANAGEMENT</div>
+                        <div class="about__block_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                    </div>
+                    <div class="about__block">
+                        <img src="image/block2.png" alt="" class="about_img">
+                        <div class="about__block_title">STRUCTURE AUDIT AND MAINTENANCET</div>
+                        <div class="about__block_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                    </div>
+                    <div class="about__block">
+                        <img src="image/block3.png" alt="" class="about_img">
+                        <div class="about__block_title">FACTORY CONSTRUCTION AND MODELING</div>
+                        <div class="about__block_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <section class="build">
+        <div class="container">
+            <h1 class="build__title">Want to build<br> something amazing?</h1>
+            <button class="button button--build">GET IN TOUCH</button>
+        </div>
+    </section>
+    <section class="news">
+        <div class="container">
+            <div class="news__inner">
+                <div class="news__text">Newsletter Signup</div>
+                <form action="#" class="news__form">
+                    <input type="email" name="email" class="news__input" placeholder="test@youremail.com">
+                    <button type="submit" class="button button--news">SIGNUP</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="social">
+        <div class="container">
+            <div class="social__wrapper">
+                <div class="social__item">
+                    <h1 class="social__title">SOCIAL</h1>
+                    <img src="image/projeco-logo.png" alt="Logo" class="social__logo">
+                    <div class="social__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                </div>
+                <div class="social__item social__item--second" >
+                    <h1 class="social__title">LINKS</h1>
+                    <a href="#" class="social__link">HOME</a>
+                    <a href="#" class="social__link">ABOUT</a>
+                    <a href="#" class="social__link">SERVICES</a>
+                    <a href="#" class="social__link">PROJECTS</a>
+                    <a href="#" class="social__link">CONTACTS US</a>
+                </div>
+                    <div class="social__item social__item--third">
+                            <a href="#" class="social__link">FAQ</a>
+                            <a href="#" class="social__link">TERMS</a>
+                            <a href="#" class="social__link">CAREERS</a>
+                    </div>
+                    <div class="social__item social__item--four">
+                            <a href="#" class="social__link">BLOG</a>
+                            <a href="#" class="social__link">PARTNERS</a>
+                            <a href="#" class="social__link">NEWS</a>
+
+                    </div>
+                    
+                <div class="social__item" >
+                    <h1 class="social__title">CONTACTS US</h1>
+                    <address>213 Baker Street Oriel City Kounty7000 KNW, Kountry Name</address>
+                    <a href="tel:+239942334022" class="social__tel">+23 994 233 4022</a>
+                    <a href="email:info@konstruct.com" class="social__tel">info@konstruct.com</a>
+                    
+                </div>
+                <div class="social__item" >
+                    <div class="social__icons">
+                        <svg class="social__icon social__icon_facebook"><use xlink:href="#facebook"></use></svg>
+                        <svg class="social__icon social__icon_twitter"><use xlink:href="#twitter"></use></svg>
+                        <svg class="social__icon social__icon_google"><use xlink:href="#google"></use></svg>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__text">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</div>
+        </div>
+    </footer>
+    
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/script.js"></script>
+</html>

@@ -1,0 +1,16 @@
+.footer {
+    background: #171819;
+    padding: 22px 0;
+    height: 60px;
+    &__text {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.846154px;
+        color: #fff;
+        text-align: center;
+
+    }
+}

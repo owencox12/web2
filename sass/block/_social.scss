@@ -1,0 +1,111 @@
+.social {
+    min-height: 240px;
+    background:#141A20;
+    padding: 42px 0 39px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__item {
+        width: 35%;
+        address{
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 16px;
+            color: #fff;
+        }
+        &--second {
+            margin-left: 70px;
+            display: flex;
+            flex-direction: column;
+    }
+        &--third{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        &--four{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+}
+    &__title {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        color: #fff;
+        letter-spacing: 0.846154px;
+        margin-bottom: 19px;
+    }
+    &__descr {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 19px;
+        color: #fff;
+        letter-spacing: 0.85px;
+        width: 250px;
+        margin-top: 16px;
+    }
+    &__link {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 25px;
+        letter-spacing: 0.846154px;
+        color: #fff;
+        transition: all .5s;
+        &:hover{
+            color: #00A4E5;
+            text-decoration: none;
+        }
+    }
+    &__tel{
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 16px;
+        color: #fff;
+        transition: all .5s;
+        &:hover{
+            color: #00A4E5;
+            text-decoration: none;
+        }
+    }
+    &__icons {
+        position: absolute;
+        right: -5%;
+        top: -20%;
+    }
+    &__icon {
+        width: 20px;
+        fill: white;
+        margin: 0 6px;
+        transition: all .5s;
+        &_facebook{
+            &:hover {
+                fill: #3b5998;
+            }
+        }
+        &_twitter {
+            &:hover {
+                fill: #00acee;
+            }   
+        }
+        &_google {
+            &:hover {
+                fill: #00acee;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,303 @@
+@media (max-width: 992px){
+    .main{
+        .container--big {
+            max-width: 900px;
+        }
+    }
+    .container {
+        max-width: 800px;
+    }
+    .story__item_img {
+        width: 118px;
+    }
+    .story__item_image_text {
+        font-size: 18px;
+    }
+}
+@media (max-width: 890px){
+    .main__inner{
+        position: fixed;
+        top: 0%;
+        right: 0;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 500;
+    }
+    .main{
+        .container--big {
+            max-width: 800px;
+        }
+    }
+    .container {
+        max-width: 750px;
+    }
+    .story__item_img {
+        width: 100px;
+    }
+    .story__item {
+        width: 45%;
+    }
+    .main__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 5000;
+        right: 5%;
+        margin-left: auto;
+        right:  0%;
+        transition: all .5s;
+        span {
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            right: 3px;
+            top: 9px;
+            background: #000;
+            transition: all .5s;
+        }
+        &:after {
+            position: absolute;
+            content: '';
+            background: #000;
+            width: 100%;
+            height: 3px;
+            right: 10%;
+            bottom: 0;
+            transition: all .5s;
+        }
+        &:before {
+            position: absolute;
+            content: '';
+            background: #000;
+            width: 100%;
+            height: 3px;
+            right: 10%;
+            top: 10%;
+            transition: all .5s;
+        }
+        &_active {
+            transition: all .5s;
+            z-index: 3000;
+            span {
+                display: none;
+            }
+            &:before {
+                bottom: 9%;
+                transform: rotate(55deg);
+            }
+            &:after {
+                top: 9%;
+                transform: rotate(-56deg);
+            }
+        }
+    }
+    .main__burger_list {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        background: #00A4E5;
+        z-index: 500;
+        display: block;
+        top: 0;
+        opacity: 0;
+        padding-top: 50px;
+        transition: all .5s;
+        &_active {
+            opacity: 1;
+        }
+        img {
+            width: 100px;
+        }
+        &_ul {
+            list-style-type: none;
+        }
+        &_li {
+            text-align: center;
+            margin-bottom: 20px;
+            margin-right: 30px;
+            a{
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 16px;
+                color: #48555B;
+                transition: all .5s;
+                color: rgb(255, 255, 255);
+            }
+        }
+        
+    }
+    .main__navigation {
+        display: none;
+    }
+    body.lock{
+        overflow: hidden;
+    }
+    .story__item {
+        width: 100%;
+    }
+    .story__wrapper {
+        flex-wrap: wrap;
+    }
+    .story__item_text{
+        width: auto;
+        text-align: center;
+    }
+    .story__item_descr {
+        width: 534px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .story__item_image {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .social__wrapper {
+        flex-wrap: wrap;
+    }
+    .social__item {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    .social__icons {
+        right: 13%;
+        top: 51%;
+    }
+    .social__item--second {
+        margin-left: 0;
+    }
+    .social__descr {
+        width: 210px;
+    }
+    .about__wrapper_second {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .about__block {
+        width: 50%;
+    }
+    .main__divider {
+        display: none;
+    }
+    .story__title {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 800px){
+    .container {
+        max-width: 600px;
+    }
+    .social__item {
+        width: 100%;
+        text-align: center;
+    }
+    .social__descr {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .social__icons {
+        right: 43%;
+        top: 89%;
+    }
+    .about__wrapper {
+        margin-top: 50px;
+    }
+
+}
+@media (max-width: 575px) {
+    .container {
+        max-width: 500px;
+    }
+    .news__input {
+        width: 200px;
+    }
+    .button--news {
+        width: 100px;
+    }
+    .news {
+        padding-right: 15px;
+    }
+}
+@media (max-width: 530px){
+    .container {
+        max-width: 400px;
+    }
+    .story__item_descr {
+        width: 400px;
+    }
+    .about__wrapper_second {
+        flex-wrap: wrap;
+    }
+    .about__block {
+        width: 100%;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .about__text {
+        font-size: 13px;
+    }
+    .news__inner {
+        flex-wrap: wrap;
+    }
+    .news__text {
+        margin-bottom: 7px;
+    }
+    .header__title {
+        font-size: 59px;
+    }
+}
+@media (max-width: 400px){
+    .header{
+        padding: 0;
+        min-height: 700px;
+        background-attachment:initial;
+    }
+    .header__logo {
+        display: none;
+    }
+    .header__title {
+        margin-top: 100px;
+    }
+    .container {
+        max-width: 300px;
+    }
+    .story__item_descr {
+        width: 270px;
+    }
+    .about__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about__item--right {
+        display: block;
+    }
+    .about__text {
+        width: 200px;
+    }
+    .about__text {
+        margin-top: 20px;
+    }
+    .button--about {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .about__divider {
+        display: block;
+        margin: 0 auto;
+    }
+    .social__icons  {
+        right: 34%;
+    }
+    .header__scroll {
+        margin-top: 147px;
+}
+}
